@@ -66,25 +66,29 @@ Potem pa sem se vprašal kakšna je povprečna končna ocena študentov pri vsak
 
 ![Graf povprečne ocene po šolah](slike/2.png)
 
-Ko sem s tem zaključil, pa sem s vprašanja, ali poklic staršev kako vpliva na ocene študentov. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa.
+Naslednje vprašanje je bilo, ali si študent želi višjo izobrazbo, če ima višje ocene. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa. Študenti, ki imajo višje ocene, si želijo višjo izobrazbo.
+
+![Graf povprečne ocene glede na željo po višji izobrazbi](slike/8.png)
+
+Ko sem s tem zaključil, pa sem se vprašal, ali poklic staršev kako vpliva na ocene študentov. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa. Študenti, ki imajo starše z poklicem `teacher` imajo najboljše ocene.
 
 ![Graf povprečne ocene študenta glede na po poklicu staršev](slike/3.png)
 
-Nato sem se vprašal, ali je število preteklih neuspehov vplivalo na končno oceno študenta. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa.
+Poleg tega sem se preveril kakšna je porazdelitev poklicev staršev. Iz grafa je razvidno, da je večina staršev poklicu `other`.
 
-![Graf povprečne ocene študenta glede na število preteklih neuspehov](slike/4.png)
+![Graf porazdelitev poklicev](slike/4.png)
 
-Zatem sem se vprašal, ali je število preteklih neuspehov vplivalo na to ali je študent v romantični zvezi. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa.
+Ko sem končal s tem, sem se vprašal, ali je število preteklih neuspehov vplivalo na končno oceno predmeta. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa. Več kot je študent imel neuspehov, manjša je bila njegova končna ocena.
 
-![Graf števila študentov v romantični zvezi glede na število preteklih neuspehov](slike/5.png)
+![Graf povprečne ocene glede na število neuspehov](slike/5.png)
 
-Nato sem se vprašal, ali je velikost družine vplivala na to ali si študent želi višjo izobrazbo. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa.
+Zatem sem se vprašal, ali je študent v romantični zvezi vplivalo na število neuspehov. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa. Študenti, ki so v romantični zvezi imajo več neuspehov.
 
-![Graf števila študentov, ki si želijo višjo izobrazbo glede na velikost družine](slike/6.png)
+![Graf števila študentov glede na število neuspehov in ali so v romantični zvezi](slike/6.png)
 
-Zatem sem se vprašal, ali je končna ocena predmeta vplivala na to ali si študent želi višjo izobrazbo. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa.
+Zadnje vprašanje ki sem si ga postavil pa je bilo, ali je velikost družine vplivala na to ali si študent želi višjo izobrazbo. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa. Študenti, ki imajo več družinskih članov si želijo višjo izobrazbo.
 
-![Graf števila študentov, ki si želijo višjo izobrazbo glede na končno oceno predmeta](slike/7.png)
+![Graf števila študentov, ki si želijo višjo izobrazbo glede na število družinskih članov](slike/7.png)
 
 ## Zaključek
 
