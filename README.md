@@ -30,7 +30,8 @@ Cilji so naslednji:
 
 Najprej sem vključil vse knjižnic, ki sem jih potreboval v kodi.
 
-```
+```python
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -39,11 +40,17 @@ import re
 
 Zatem pa se prebral vse podatke in jih inicializiral.
 
-```
+```python
+
 #read the data and split by ","
 data = pd.read_csv('podatki/student_data.csv', sep=",", encoding="windows-1250")
 
-%store data
+#cut data sex, age, address, Pstatus, Medu, Fedu, reason, guardian, traveltime, studytime, schoolsup, famsup, paid, activities, nursery, internet, famrel, freetime, goout, Dalc, Walc, health, absences
+cut = ['sex', 'age', 'address', 'Pstatus', 'Medu', 'Fedu', 'reason', 'guardian', 'traveltime', 'studytime', 'schoolsup', 'famsup', 'paid', 'activities', 'nursery', 'internet', 'famrel', 'freetime', 'goout', 'Dalc', 'Walc', 'health', 'absences']
+
+for a in cut:
+    data = data.drop(a, 1)
+
 ```
 
 ## Pregled podatkov
@@ -86,7 +93,7 @@ Zatem sem se vprašal, ali je študent v romantični zvezi vplivalo na število 
 
 ![Graf števila študentov glede na število neuspehov in ali so v romantični zvezi](slike/6.png)
 
-Zadnje vprašanje ki sem si ga postavil pa je bilo, ali je velikost družine vplivala na to ali si študent želi višjo izobrazbo. Na to vprašanje sem odgovoril z da, kot vidimo iz naslednjega grafa. Študenti, ki imajo več družinskih članov si želijo višjo izobrazbo.
+Zadnje vprašanje, ki sem si ga zastavil je bilo, ali je velikost družine vplivala na to ali si študent želi višjo izobrazbo. Na to vprašanje sem odgovoril z ne. Kot vidimo iz grafa, je število študentov, ki si želijo višjo izobrazbo, enako.
 
 ![Graf števila študentov, ki si želijo višjo izobrazbo glede na število družinskih članov](slike/7.png)
 
